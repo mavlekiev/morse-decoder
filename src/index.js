@@ -60,22 +60,6 @@ function decode(expr) {
         str += " ";
         i += 9;
       }
-   
-
-    /*
-    while (expr[i] !== "*" || i < expr.length) {
-      if (expr[i] === "1" && expr[i + 1] === "0") {
-        strKey += ".";
-      } else if (expr[i] === "1" && expr[i + 1] === "1") {
-        strKey += "-";
-      }
-    }
-    str += MORSE_TABLE[strKey]; 
-    if (expr[i] === "*") {
-        str += " ";
-        i += 9;
-      }
-    */
   }
   return str;
 }
